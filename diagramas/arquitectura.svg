@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -90 1260 630" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#1e1e1e"/></marker></defs>
+<rect x="-20" y="-90" width="1260" height="630" fill="#ffffff"/>
+<text x="40" y="-50" font-size="24" font-weight="700" fill="#1e1e1e">Arquitectura — Sistema Inteligente de Busqueda de Talento (RAG multimodal)</text>
+<text x="40" y="-22" font-size="15" fill="#495057">Vacante (Anthropic) + 20 CVs sinteticos (PDF/PNG) -&gt; Top 5 candidatos</text>
+<line x1="270" y1="78" x2="330" y2="78" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="560" y1="78" x2="980" y2="165" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<text x="770.0" y="115.5" font-size="13" fill="#1971c2" text-anchor="middle" font-style="italic">query</text>
+<line x1="270" y1="278" x2="330" y2="278" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="560" y1="278" x2="620" y2="278" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="850" y1="278" x2="980" y2="200" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<text x="915.0" y="233.0" font-size="13" fill="#1971c2" text-anchor="middle" font-style="italic">passage</text>
+<line x1="1095" y1="216" x2="1095" y2="380" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="980" y1="418" x2="850" y2="418" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<text x="915.0" y="412.0" font-size="13" fill="#1971c2" text-anchor="middle" font-style="italic">top-k</text>
+<line x1="620" y1="418" x2="560" y2="418" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<text x="590.0" y="412.0" font-size="13" fill="#1971c2" text-anchor="middle" font-style="italic">top-5</text>
+<line x1="330" y1="418" x2="270" y2="418" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="40" width="230" height="76" rx="10" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="155.0" y="74.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">VACANTE (PDF)</text>
+<text x="155.0" y="92.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">Machine Learning Systems Eng.</text>
+<rect x="330" y="40" width="230" height="76" rx="10" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="445.0" y="74.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">Embedding de consulta</text>
+<text x="445.0" y="92.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">(e5-small)  query:</text>
+<rect x="980" y="140" width="230" height="76" rx="10" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1095.0" y="174.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">ChromaDB</text>
+<text x="1095.0" y="192.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">base vectorial (coseno)</text>
+<rect x="40" y="240" width="230" height="76" rx="10" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="155.0" y="274.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">Base de conocimiento</text>
+<text x="155.0" y="292.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">16 CV PDF  +  4 CV PNG</text>
+<rect x="330" y="240" width="230" height="76" rx="10" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="445.0" y="274.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">Extraccion de texto</text>
+<text x="445.0" y="292.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">pypdf  +  OCR (tesseract)</text>
+<rect x="620" y="240" width="230" height="76" rx="10" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="735.0" y="274.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">Embeddings (passage)</text>
+<text x="735.0" y="292.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">+ metadatos</text>
+<rect x="980" y="380" width="230" height="76" rx="10" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1095.0" y="414.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">Busqueda semantica</text>
+<text x="1095.0" y="432.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">(top-k)</text>
+<rect x="620" y="380" width="230" height="76" rx="10" fill="#ffec99" stroke="#1e1e1e" stroke-width="2"/>
+<text x="735.0" y="414.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">Ranking hibrido</text>
+<text x="735.0" y="432.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">sim + skills + nivel</text>
+<rect x="330" y="380" width="230" height="76" rx="10" fill="#ffec99" stroke="#1e1e1e" stroke-width="2"/>
+<text x="445.0" y="414.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">LLM Qwen2.5-1.5B</text>
+<text x="445.0" y="432.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">justificacion por candidato</text>
+<rect x="40" y="380" width="230" height="76" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+<text x="155.0" y="414.0" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">TOP 5 CANDIDATOS</text>
+<text x="155.0" y="432.0" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="middle">+ justificacion</text>
+<text x="40" y="505" font-size="13" fill="#495057">Entradas (azul) | Vectorizacion/recuperacion (verde) | Ranking + LLM (amarillo) | Salida (rojo)</text>
+</svg>

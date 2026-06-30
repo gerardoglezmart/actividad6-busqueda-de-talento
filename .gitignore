@@ -1,0 +1,25 @@
+# Artefactos generados al ejecutar el notebook
+entregable_talento/
+chroma_talentos/
+cvs_pdf/
+cvs_png/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+testenv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+
+# Claude Code (interno de sesion)
+.claude/
+
+# Materiales del curso que no se versionan
+Actividad 6 _ Semana 9 _ LLM + datos simulados.pdf
+MNA_NLP_actividad_Busqueda_de_Talento.ipynb

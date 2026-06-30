@@ -1,0 +1,24 @@
+# Sistema Inteligente para Búsqueda de Talento — dependencias
+# (En Google Colab la mayoría ya están preinstaladas.)
+
+# Embeddings y base de datos vectorial
+sentence-transformers>=2.2
+chromadb>=0.4
+
+# LLM
+transformers>=4.40
+accelerate>=0.30
+torch>=2.1
+# Solo para GPU (cuantización 4-bit en Colab):
+# bitsandbytes>=0.43
+
+# Multimodal: generación y lectura de PDF / PNG
+fpdf2>=2.7
+pypdf>=4.0
+pytesseract>=0.3.10   # requiere el binario 'tesseract' instalado en el sistema
+Pillow>=9.0
+
+# Utilidades
+numpy
+pandas
+matplotlib
